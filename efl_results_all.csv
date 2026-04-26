@@ -1,0 +1,15 @@
+Method,Defense,Activity Acc (%),Attack ASR (%),Privacy Score
+FedAvg (Baseline),None,94.67,0.0,100.0
+Ensemble FL,None,89.55,0.0,100.0
+FedAvg + Gaussian Noise,σ=0.0,92.67,0.0,100.0
+FedAvg + Gaussian Noise,σ=0.05,92.67,0.0,100.0
+FedAvg + Gaussian Noise,σ=0.1,92.7,0.0,100.0
+FedAvg + Gaussian Noise,σ=0.2,94.16,0.0,100.0
+FedAvg + Gaussian Noise,σ=0.5,92.43,0.0,100.0
+FedAvg + Gaussian Noise,σ=1.0,89.58,0.0,100.0
+FedAvg + Subject-Aware Noise,σ=0.0,93.35,0.0,100.0
+FedAvg + Subject-Aware Noise,σ=0.05,94.88,0.0,100.0
+FedAvg + Subject-Aware Noise,σ=0.1,94.71,0.0,100.0
+FedAvg + Subject-Aware Noise,σ=0.2,94.6,0.0,100.0
+FedAvg + Subject-Aware Noise,σ=0.5,90.09,0.0,100.0
+FedAvg + Subject-Aware Noise,σ=1.0,85.21,0.0,100.0
